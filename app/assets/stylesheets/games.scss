@@ -1,0 +1,30 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: repeat(9, minmax(50px, 1fr));
+  grid-column-gap: 10px;
+  
+}
+
+.letter {
+  background-color: #40739e;
+  padding-top: 10px;
+  height: 30px;
+  color: white;
+  text-align: center;
+  border: black solid 1px;
+}
+
+.form {
+  margin: 1rem;
+}
+
+.button {
+  padding: 1rem;
+  width: 50px;
+  height: 50px;
+}
